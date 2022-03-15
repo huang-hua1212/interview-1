@@ -17,6 +17,11 @@ Set up an highly available "Hello World" application with the following instruct
 * Provision two virtual machines (this is where the app will run)
 * The page, when visited, should show "Hello World! I'm host X" - X should be the name of the virtual machine
 
+# Pre-request:
+
+1. Need a linux vm or linux container
+2. If you are using linux container please provide docker run command or docker-compose file
+3. If you are using vm please provide ditribution
 
 ## Ansible - My First Playbook
 
