@@ -7,7 +7,8 @@ Here is my contact elsvent@ghtinc.com
 ## Github private repo
 
 After finish below project and push to github private repository.
-Please share your private repository with elsvent@ghtinc.com github account(using collaborate feature) 
+
+Please share your private repository with elsvent@ghtinc.com github account(using collaborate feature)
 
 ## Highly Available "Hello World"
 
