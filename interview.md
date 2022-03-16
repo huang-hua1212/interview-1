@@ -4,6 +4,10 @@ Dear interviewer, it is a pleasure to invite you to go through the pre-interview
 Please perform below tasks for pre-interview. Feel free to contact me if you have any problem for instructions.
 Here is my contact elsvent@ghtinc.com
 
+This is a evaluation before interview. The target for the pre-interview would be understand your skill/learn rate. Therefore, below tasks not a **MUST** to perform all.
+
+We hope you can try to commit even the tasks not complete. This will help us to understand your thinking flow.
+
 ## Github private repo
 
 After finish below project and push to github private repository.
