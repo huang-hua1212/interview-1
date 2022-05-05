@@ -14,13 +14,19 @@ After finish below project and push to github private repository.
 
 Please share your private repository with elsvent@ghtinc.com github account(using collaborate feature)
 
-## Highly Available "Hello World"
+## Linux System admin
 
-Set up an highly available "Hello World" application with the following instructions:
+1. The system comming slow response, how do we check the system slow? Please describe your tools and exactly commands
+2. How do I grep recursively? Explain on several examples.
+3. For example, we have a folder named /var/log mounted at /dev/mapper/logvg-loglv using LVM
+   I want to add a disk /dev/sdb into /var/log LVM. How to do this?
 
-* Use a containerized Load Balancer
-* Provision two virtual machines (this is where the app will run)
-* The page, when visited, should show "Hello World! I'm host X" - X should be the name of the virtual machine
+## docker
+
+1. How do I delete unnecessary docker resources(image container volume...etc)
+2. Here is a docker command please expalain it.
+   $ docker run --rm --name interview -v /etc/host:/etc/host:ro interview
+3. What is multi-layer image? Please make a example and explain why?
 
 # Pre-request for Ansible task:
 
@@ -39,11 +45,3 @@ Set up an highly available "Hello World" application with the following instruct
 
 1. Write a task to update and upgrade apt packages
 
-## Git - Squashing Commits
-
-### Instructions
-
-1. In a git repository, create a new file with the content "Mario" and create a new commit
-2. Make change to the content of the file you just created so the content is "Mario & Luigi" and create another commit
-3. Verify you have two separate commits
-4. Squash the latest two commits into one commit
