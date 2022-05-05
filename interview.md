@@ -21,7 +21,7 @@ Please share your private repository with elsvent@ghtinc.com github account(usin
 3. For example, we have a folder named /var/log mounted at /dev/mapper/logvg-loglv using LVM
    I want to add a disk /dev/sdb into /var/log LVM. How to do this?
 
-## docker
+## Docker
 
 1. How do I delete unnecessary docker resources(image container volume...etc)
 2. Here is a docker command please expalain it.
