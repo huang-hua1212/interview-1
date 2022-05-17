@@ -14,34 +14,10 @@ After finish below project and push to github private repository.
 
 Please share your private repository with elsvent@ghtinc.com github account(using collaborate feature)
 
-## Linux System admin
+## Build a wordpress website using kubernetes
 
-1. The system comming slow response, how do we check the system slow? Please describe your tools and exactly commands
-2. How do I grep recursively? Explain on several examples.
-3. For example, we have a folder named /var/log mounted at /dev/mapper/logvg-loglv using LVM
-   I want to add a disk /dev/sdb into /var/log LVM. How to do this?
-
-## Docker
-
-1. How do I delete unnecessary docker resources(image container volume...etc)
-2. Here is a docker command please expalain it.
-   $ docker run --rm --name interview -v /etc/host:/etc/host:ro interview
-3. What is multi-layer image? Please make a example and explain why?
-
-# Pre-request for Ansible task:
-
-1. Need a linux vm or linux container
-2. If you are using linux container please provide docker run command or docker-compose file
-3. If you are using vm please provide ditribution
-
-## Ansible - My First Playbook
-
-1. Write a playbook that will:
-  a. Install the package zlib
-  b. Create the file `/tmp/some_file`
-2. Run the playbook on a remote host
-
-## Ansible - Update and upgrade APT packages task
-
-1. Write a task to update and upgrade apt packages
-
+1. Install a metallb using layer 2 for ips
+2. Install nginx-ingress for ingress
+3. Install wordpress and DB
+4. Should be able to access wordpress via metallb ip or ingress ip
+5. Commit your kubernetes config yaml in git
