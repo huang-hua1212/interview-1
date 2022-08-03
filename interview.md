@@ -19,14 +19,15 @@ Please share your private repository with elsvent@ghtinc.com github account(usin
 Set up an highly available "Hello World" application with the following instructions:
 
 * Use a containerized Load Balancer
-* Provision two virtual machines (this is where the app will run)
-* The page, when visited, should show "Hello World! I'm host X" - X should be the name of the virtual machine
+* Provision two virtual machines (this is where the app will run) or containers
+* The page, when visited, should show "Hello World! I'm host X" - X should be the name of the virtual machine or containers
 
 # Pre-request for Ansible task:
 
 1. Need a linux vm or linux container
 2. If you are using linux container please provide docker run command or docker-compose file
 3. If you are using vm please provide ditribution
+4. Need install ansible
 
 ## Ansible - My First Playbook
 
@@ -39,11 +40,20 @@ Set up an highly available "Hello World" application with the following instruct
 
 1. Write a task to update and upgrade apt packages
 
-## Git - Squashing Commits
+## Ansible - Install ansible galaxy docker community collection and pull a docker image
+
+1. Install ansible galaxy docker community collection
+2. Write a task to pull a blackbox docker image
+3. Write a task to bring up blackbox docker container
+
+## Git
 
 ### Instructions
 
 1. In a git repository, create a new file with the content "Mario" and create a new commit
-2. Make change to the content of the file you just created so the content is "Mario & Luigi" and create another commit
-3. Verify you have two separate commits
-4. Squash the latest two commits into one commit
+2. Make change to the content of the file you just created so the content is "Mario & Luigi"
+3. Checkout a branch and commit
+4. Create a pull request and merge into main branch
+5. Make change to the content of the file change the content "Mario & Luigi & me" and commit
+6. Direct push to main branch
+7. Revirt the file content to step 4 with content "Mario & Luigi" and commit
